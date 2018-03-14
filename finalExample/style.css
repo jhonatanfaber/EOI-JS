@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 13px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: rgb(55, 105, 32);
+    margin-bottom: 40px;
+}
+
+
+.main__information{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.filters{
+    text-align: center;
+}
+
+.search-bar{
+    grid-column: 1/2;
+}
+
+.album{
+    grid-column: 2/5;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
